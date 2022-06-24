@@ -13,5 +13,8 @@ UCLASS()
 class UNREALTEST1_API AUnrealTest1GameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	AUnrealTest1GameModeBase();
+
 };
